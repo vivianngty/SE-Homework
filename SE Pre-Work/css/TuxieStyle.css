@@ -1,0 +1,364 @@
+body{
+	padding-top:20px;
+	padding-bottom: 40px;
+}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	font-style: bold;
+	padding-bottom: 20px;
+	font-size: 50px;
+}
+
+h3{
+	font-family: 'Amatic SC', cursive;
+	padding-left: 3em;
+	font-size: 40px;
+	color: #DDA0DD;
+	margin-bottom: 1em;
+	position: sticky;
+	top: 1px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: white
+}
+
+
+a{
+	color: #708090;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+  background-color: #DCDCDC;
+  color: white;
+}
+
+
+#title{
+	font-size: 50px;
+	text-align: center;
+}
+
+nav{
+	font-family: 'Unna', serif;
+	font-size: 13pt;
+	text-align: center;
+	padding: 2em;
+	background: #FFF0F5;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar{
+	overflow: hidden;	
+}
+
+.navbar a{
+	justify-content: space-between;
+	padding: 0 0;
+	float: left;
+}
+
+.navbar a:hover{
+	background-color: #DCDCDC;
+	color: white;
+	padding: 0 0;
+}
+
+.dropdown{
+	overflow: hidden;
+	float: left;
+	padding: 0 3em;
+}
+
+.dropdown .dropbtn{
+	font-family: 'Unna', serif;
+	background-color: inherit;
+	color: #708090;
+	font-size: 13pt;
+	text-align: center;
+	border: none;
+	outline: none;
+	margin: 0;
+}
+
+.dropdown .dropbtn:hover{
+	background-color: #DCDCDC;
+	color: white;
+	padding: 0 10px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFF0F5;
+	min-width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+  float: left;
+  font-family: 'Unna', serif;
+  color: black;
+  font-size: 13pt;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+    padding: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+#Banner{
+	text-align: center;
+}
+
+
+#Banner img{
+	border-radius: 50%;
+}
+
+/************************Fluffy setOne picture****************************/
+
+#setOne{
+	position: relative;
+}
+
+#setOne img{
+	position: absolute;
+	right:30px;
+	border-radius: 10%;
+}
+
+
+#One{
+	animation: fadeOne 15s infinite;
+}
+
+#Two{
+	animation: fadeTwo 15s infinite;
+}
+
+#Three{
+	animation: fadeThree 15s infinite;
+}
+
+#Four{
+	animation: fadeFour 15s infinite;
+}
+
+
+@keyframes fadeZero {
+	0% {
+		opacity: 1;
+	}
+
+	10% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+@keyframes fadeOne {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@keyframes fadeTwo {
+	0% {
+		opacity: 0;
+	}
+	
+	10%{
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@keyframes fadeThree {
+	0% {
+		opacity: 0;
+	}
+	
+	10% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeFour {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 0;
+	}
+	
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+
+/*****************************************************************/
+
+#tuxieTable table{
+	border-collapse: collapse;
+	display: block;
+	margin: 5em;
+	margin-left: 14em;
+	font-family: 'Unna', serif;
+	font-size: 13pt;
+}
+
+#tuxieTable caption{
+	font-size: 15pt;
+	padding-bottom: 30px;
+}
+
+th, td {
+	width: 180px;
+  padding: 8px;
+  padding-right: 5px;
+  margin: 5px;
+  text-align: left;
+  border-bottom: 1px solid #DB7093;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover{
+	background-color: #FDF5E6;
+}
+
+
+#tuxieVideo{
+	margin-left: 30px;
+	margin-top: 4em;
+}
+
+
+
+
+
+.tuxieFlex{
+	position: fixed;
+	bottom: 350px;
+	right: 0; 
+}
+
+#fixed{
+	position: fixed;
+	right: 20px;
+	bottom: 5px;
+	width: 300px;
+	border: 1px dashed #FF69B4;
+	padding: 10px;
+	text-align: center;
+}
+
+#Flex{
+	display: flex;
+	margin-top: 5em;
+	width: 75%;
+}
+
+.funFacts{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 5em;
+}
+
+.funFacts p{
+	font-family: 'Unna', serif;
+	font-size: 13pt;
+	line-height: 2;
+}
+
+.funFacts #facts{
+	font-size: 25pt;
+}
+

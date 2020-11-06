@@ -1,0 +1,234 @@
+body{
+	padding-top:20px;
+	padding-bottom: 40px;
+}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	font-style: bold;
+	padding-bottom: 20px;
+	font-size: 50px;
+}
+
+h3{
+	font-family: 'Amatic SC', cursive;
+	padding-left: 3em;
+	font-size: 40px;
+	color: #DDA0DD;
+	margin-bottom: 1em;
+	position: sticky;
+	top: 1px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: white
+}
+
+
+img{
+	opacity: 0.7;
+	border-radius: 40%;
+	margin-top: 50px;
+}
+
+
+a{
+	color: #708090;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+  background-color: #DCDCDC;
+  color: white;
+}
+
+
+#title{
+	font-size: 50px;
+	text-align: center;
+}
+
+nav{
+	font-family: 'Unna', serif;
+	font-size: 13pt;
+	text-align: center;
+	padding: 2em;
+	background: #FFF0F5;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar{
+	overflow: hidden;	
+}
+
+.navbar a{
+	justify-content: space-between;
+	padding: 0 0;
+	float: left;
+}
+
+.navbar a:hover{
+	background-color: #DCDCDC;
+	color: white;
+	padding: 0 0;
+}
+
+.dropdown{
+	overflow: hidden;
+	float: left;
+	padding: 0 3em;
+}
+
+.dropdown .dropbtn{
+	font-family: 'Unna', serif;
+	background-color: inherit;
+	color: #708090;
+	font-size: 13pt;
+	text-align: center;
+	border: none;
+	outline: none;
+	margin: 0;
+}
+
+.dropdown .dropbtn:hover{
+	background-color: #DCDCDC;
+	color: white;
+	padding: 0 10px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFF0F5;
+	min-width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+  float: left;
+  font-family: 'Unna', serif;
+  color: black;
+  font-size: 13pt;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  padding: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.content{
+	display: flex;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.content p{
+	font-family: 'Unna', serif;
+	line-height: 2.0;
+	font-size: 15pt;
+	margin-right: 100px;
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-top: 15px;
+	background-color: #F8F8FF;
+	animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: #F8F8FF;}
+  to {background-color: #F0FFF0;}
+}
+
+/***************************************Footer*******************************************/
+
+#footer{
+	font-family: 'Unna', serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #FFFAFA;
+	margin: 3em 0;
+	padding: 3em;
+}
+
+.followMe{
+	display: block;
+	position: relative;
+	top: 40px;
+	text-align: center;
+}
+
+.contact{
+	display: block;
+}
+
+.contact p{
+	padding-left: 10px;
+	font-size: 12pt;
+}
+
+
+#name{
+	padding: 5px;
+	margin: 10px;
+	width: 500px;
+	border-color: #E9967A;
+	border-style: none;
+	border-radius: 10pt;
+	position: relative;
+}
+
+#phone{
+	padding: 5px;
+	margin: 10px;
+	width: 500px;
+	border-color: #E9967A;
+	border-style: none;
+	border-radius: 10pt;
+	position: relative;
+}
+
+#message{
+	padding: 5px;
+	margin: 10px;
+	width: 500px;
+	height: 150px;
+	border-color: #E9967A;
+	border-style: dashed;
+	border-radius: 10pt;
+	position: relative;
+}
+
+
+input[type="text"]:hover{
+	border-style: 1px solid #FFB6C1;
+}
+
+input[type=submit]{
+	background-color: white;
+	padding: 10px;
+	border: none;
+	margin: 10px;
+}
+
+input[type=submit]:hover{
+	background-color: #FFB6C1;
+	color: white;
+}
+
+.content:hover{
+
+}
